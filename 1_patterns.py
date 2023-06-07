@@ -1,3 +1,5 @@
+#  patterns
+
 n = int(input("Enter number \n"))
 
 
