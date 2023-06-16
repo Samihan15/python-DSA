@@ -49,7 +49,7 @@ def shiftSmallLarge(head):
     small = head
 
     curr = head
-    while curr.next is not None:
+    while curr is not None:
         if small.data > curr.data:
             small = curr
         curr = curr.next
@@ -65,7 +65,7 @@ def shiftSmallLarge(head):
     large = head
     curr = head
 
-    while curr.next is not None:
+    while curr is not None:
         if large.data < curr.data:
             large = curr
         curr = curr.next
