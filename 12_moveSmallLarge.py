@@ -78,11 +78,14 @@ def shiftSmallLarge(head):
     
     minEle = small.data
 
-    delete(head,minEle)
+    if minEle == head.data:
+        pass
+    else:
+        delete(head,minEle)
 
-    new_node = Node(minEle)
-    new_node.next = head
-    head = new_node
+        new_node = Node(minEle)
+        new_node.next = head
+        head = new_node
 
     large = head
     curr = head
