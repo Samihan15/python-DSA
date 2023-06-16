@@ -2,6 +2,28 @@
 move small element to the head of the linked list and large element to the end of the linked list
 '''
 
+# error while compiling on CQ platform
+'''
+Traceback (most recent call last):
+  File "/usercode/file.py3", line 80, in <module>
+    head = shiftSmallLarge(head);
+  File "/usercode/file.py3", line 71, in shiftSmallLarge
+    curr.next = new_node
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/usercode/file.py3", line 80, in <module>
+    head = shiftSmallLarge(head);
+  File "/usercode/file.py3", line 71, in shiftSmallLarge
+    curr.next = new_node
+AttributeError: 'NoneType' object has no attribute 'next'
+Traceback (most recent call last):
+  File "/usercode/file.py3", line 80, in <module>
+    head = shiftSmallLarge(head);
+  File "/usercode/file.py3", line 71, in shiftSmallLarge
+    curr.next = new_node
+AttributeError: 'NoneType' object has no attribute 'next'
+'''
+
 class Node:
     def __init__(self, data):
         self.data = data
